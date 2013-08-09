@@ -1,0 +1,21 @@
+{
+  "name": "lively-server-inspector",
+  "version": "0.0.2",
+  "description": "Enables live programming with nodejs. Load runtime-inspector into your nodejs environment to spawn an http interface for evaluating and inspecting JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/lively-pluggable-server/node_modules/nodeunit/bin/nodeunit tests.js"
+  },
+  "keywords": [
+    "LivelyKernel",
+    "LivelyWeb",
+    "live programming",
+    "inspector"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "lively-pluggable-server": "https://github.com/rksm/lively-pluggable-server/tarball/master"
+  },
+  "author": "Robert Krahn",
+  "license": "MIT"
+}
